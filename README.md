@@ -1,5 +1,5 @@
 # MechaCar_Statistical_Analysis
-##Module 15 challenge: Deliverable 1
+## Linear Regression to predict MPG
 [insert link to phote]
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 The following variables based upon their Pr(>|t|) score are unlikely to provide a non-random variance: the Intercept, Vehicle Length and Ground Clearance. With the Intercept having a high level of statistical significance, it means there are other variables and factors that contribute to the variation in mpg.
@@ -10,3 +10,8 @@ The Slope is not considered to be zero. If there is no significant linear relati
 ### Does this linear model predict mpg of MechaCar prototypes e ffectively? Why or why not?
 The R-Squared value of 0.7149 indicates that it is an effective model to predict mpg, although it may be guilty of overfitting given the lack of significant variables (only vehicle length and ground clearance)
 
+## Summary Statistics on Suspension Coil
+[insert photo total summary]
+In total the variance of the suspension coils meets the design specifications as seen in the Total Summary data. 
+[Insert Lot Summary photo]
+However, in the Lot Summary data we see that both Lots 1 and 2 have very low variance, while within the design specifications, but Lot 3, with a variance of over 220 falls why outside the requirement.
