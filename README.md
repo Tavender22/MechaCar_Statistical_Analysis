@@ -11,16 +11,16 @@ The Slope is not considered to be zero. If there is no significant linear relati
 The R-Squared value of 0.7149 indicates that it is an effective model to predict mpg, although it may be guilty of overfitting given the lack of significant variables (only vehicle length and ground clearance)
 
 ## Summary Statistics on Suspension Coil
-![Total Summary](https://github.com/Tavender22/MechaCar_Statistical_Analysis/tree/main/Challenge/MechaCar-TotalSummary-Suspension.png)
+![Total Summary](Challenge/MechaCar-TotalSummary-Suspension.png)
 In total the variance of the suspension coils meets the design specifications as seen in the Total Summary data. 
-![Linear Regression](https://github.com/Tavender22/MechaCar_Statistical_Analysis/tree/main/Challenge/MechaCar-LotSummary-Suspension.png)
+![Linear Regression](Challenge/MechaCar-LotSummary-Suspension.png)
 However, in the Lot Summary data we see that both Lots 1 and 2 have very low variance, while within the design specifications, but Lot 3, with a variance of over 220 falls why outside the requirement.
 
 ## T-Tests on Suspension Coils
-![T-Test-Total](https://github.com/Tavender22/MechaCar_Statistical_Analysis/tree/main/Challenge/MechaCar-TotalSummary_t-test)
+![T-Test-Total](Challenge/MechaCar-TotalSummary_t-test)
 Overall our Suspension Coil T-test is statistically signicant and we would not reject the null hypothesis.
 Within each lot, the p-value is less than 0.05, and we would reject our Null Hypothesis.
-![T-Test-Lot](https://github.com/Tavender22/MechaCar_Statistical_Analysis/tree/main/Challenge/MechaCar-LotSummary_T-test.png)
+![T-Test-Lot](Challenge/MechaCar-LotSummary_T-test.png)
 
 ## Study Design: Mechacar vs. Competition
 How does the MechaCars perform vs. the competion on: City/Hwy MPG; horsepower and safety; all versus price? We want to determine whether the MechaCar performs better on these metrics vs. the cost of the car, vs. its competition.
