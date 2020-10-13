@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 ## Linear Regression to predict MPG
-![Linear Regression](https://github.com/Tavender22/MechaCar_Statistical_Analysis/tree/main/Challenge/MechaCar_MPG_Linear.png)
+![Linear Regression](Challenge/MechaCar_MPG_Linear.png)
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 The following variables based upon their Pr(>|t|) score are unlikely to provide a non-random variance: the Intercept, Vehicle Length and Ground Clearance. With the Intercept having a high level of statistical significance, it means there are other variables and factors that contribute to the variation in mpg.
 
